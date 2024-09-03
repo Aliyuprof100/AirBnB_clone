@@ -8,7 +8,7 @@ class command(cmd.Cmd):
     """This is a simple command line interpreter"""
 
     def do_save(self, line):
-        print("Please save this file succusssfully")
+        print("Please save this file successfully")
 
 if __name__ == '__Main__':
     command.cmdloop()
